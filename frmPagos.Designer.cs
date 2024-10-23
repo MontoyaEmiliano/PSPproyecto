@@ -1,16 +1,16 @@
 ﻿namespace PSPproyecto
 {
-    partial class Form1
+    partial class frmPagos
     {
         /// <summary>
-        /// Variable del diseñador necesaria.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpiar los recursos que se estén usando.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -69,13 +69,12 @@
             this.grpPersonalData.Controls.Add(this.txtClassName);
             this.grpPersonalData.Controls.Add(this.txtName);
             this.grpPersonalData.Controls.Add(this.lblName);
-            this.grpPersonalData.Location = new System.Drawing.Point(27, 12);
+            this.grpPersonalData.Location = new System.Drawing.Point(48, 22);
             this.grpPersonalData.Name = "grpPersonalData";
             this.grpPersonalData.Size = new System.Drawing.Size(704, 407);
-            this.grpPersonalData.TabIndex = 0;
+            this.grpPersonalData.TabIndex = 1;
             this.grpPersonalData.TabStop = false;
             this.grpPersonalData.Text = "Datos personales";
-            this.grpPersonalData.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // pctPhoto
             // 
@@ -84,7 +83,6 @@
             this.pctPhoto.Size = new System.Drawing.Size(162, 126);
             this.pctPhoto.TabIndex = 17;
             this.pctPhoto.TabStop = false;
-            this.pctPhoto.Click += new System.EventHandler(this.pctPhoto_Click);
             // 
             // bttnLoad
             // 
@@ -219,17 +217,15 @@
             this.lblName.Size = new System.Drawing.Size(56, 16);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Nombre";
-            this.lblName.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // frmPagos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.grpPersonalData);
-            this.Name = "Form1";
-            this.Text = "Empleados";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "frmPagos";
+            this.Text = "frmPagos";
             this.grpPersonalData.ResumeLayout(false);
             this.grpPersonalData.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctPhoto)).EndInit();
@@ -240,8 +236,13 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grpPersonalData;
-        private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.PictureBox pctPhoto;
+        private System.Windows.Forms.Button bttnLoad;
+        private System.Windows.Forms.Button bttnInsert;
+        private System.Windows.Forms.Button bttnCancel;
+        private System.Windows.Forms.Button bttnDelete;
+        private System.Windows.Forms.Button bttnUpdate;
+        private System.Windows.Forms.Button bttnSave;
         private System.Windows.Forms.TextBox txtAdress;
         private System.Windows.Forms.Label lblAdress;
         private System.Windows.Forms.TextBox txtPhoneNumber;
@@ -250,13 +251,7 @@
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox lblClassName;
         private System.Windows.Forms.Label txtClassName;
-        private System.Windows.Forms.Button bttnCancel;
-        private System.Windows.Forms.Button bttnDelete;
-        private System.Windows.Forms.Button bttnUpdate;
-        private System.Windows.Forms.Button bttnSave;
-        private System.Windows.Forms.Button bttnInsert;
-        private System.Windows.Forms.PictureBox pctPhoto;
-        private System.Windows.Forms.Button bttnLoad;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblName;
     }
 }
-
