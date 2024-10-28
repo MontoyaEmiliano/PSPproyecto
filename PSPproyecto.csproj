@@ -46,11 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Data\Entities\Payment.cs" />
+    <Compile Include="Data\Entities\PaymentDetail.cs" />
+    <Compile Include="Data\Entities\Student.cs" />
+    <Compile Include="Data\Entities\Catalog.cs" />
+    <Compile Include="frmPaymentDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmPaymentDetail.Designer.cs">
+      <DependentUpon>frmPaymentDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudent.Designer.cs">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCatalog.Designer.cs">
+      <DependentUpon>frmCatalog.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPagos.cs">
       <SubType>Form</SubType>
@@ -58,10 +74,25 @@
     <Compile Include="frmPagos.Designer.cs">
       <DependentUpon>frmPagos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayment.Designer.cs">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmPayment.resx">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaymentDetail.resx">
+      <DependentUpon>frmPaymentDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudent.resx">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCatalog.resx">
+      <DependentUpon>frmCatalog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPagos.resx">
       <DependentUpon>frmPagos.cs</DependentUpon>

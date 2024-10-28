@@ -16,7 +16,7 @@ namespace PSPproyecto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPagos());
+            Application.Run(new frmStudent());
         }
     }
 }
