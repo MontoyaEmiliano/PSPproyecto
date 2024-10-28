@@ -10,34 +10,31 @@ using System.Windows.Forms;
 
 namespace PSPproyecto
 {
-    public partial class frmPagos : Form
+    public partial class frmPayment : Form
     {
-        public frmPagos()
+        public frmPayment()
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
 
-        private void label1_Click(object sender, EventArgs e)
+        private void lblDate_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void lblStudentName_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void grpPersonalData_Enter(object sender, EventArgs e)
+        private void groupBox5_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
-=======
->>>>>>> 979fdfb47f19cfc1673cac31fd5b5c750efe25d1
     }
 }

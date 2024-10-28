@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace PSPproyecto
 {
-    public partial class frmPagos : Form
+    public partial class frmStudent : Form
     {
-        public frmPagos()
+        public frmStudent()
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -28,16 +27,19 @@ namespace PSPproyecto
 
         }
 
-        private void grpPersonalData_Enter(object sender, EventArgs e)
+        private void grpAlumno_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click_1(object sender, EventArgs e)
+        private void FrmAlumo_Load(object sender, EventArgs e)
         {
 
         }
-=======
->>>>>>> 979fdfb47f19cfc1673cac31fd5b5c750efe25d1
+
+        private void lblSection_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

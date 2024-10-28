@@ -1,0 +1,13 @@
+C:\Users\emili\source\repos\PSPproyecto\bin\Debug\PSPproyecto.exe.config
+C:\Users\emili\source\repos\PSPproyecto\bin\Debug\PSPproyecto.exe
+C:\Users\emili\source\repos\PSPproyecto\bin\Debug\PSPproyecto.pdb
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.csproj.AssemblyReference.cache
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.Properties.Resources.resources
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.csproj.GenerateResource.cache
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.csproj.CoreCompileInputs.cache
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.exe
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.pdb
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.frmPagos.resources
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.NOSIRVE.resources
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.Cuota.resources
+C:\Users\emili\source\repos\PSPproyecto\obj\Debug\PSPproyecto.Colegiatura.resources

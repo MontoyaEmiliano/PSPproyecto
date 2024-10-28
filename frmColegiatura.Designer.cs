@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.grpPersonalData = new System.Windows.Forms.GroupBox();
+            this.txtAmount2 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.bttnMenu = new System.Windows.Forms.Button();
             this.bttnContinue2 = new System.Windows.Forms.Button();
             this.lblAmount2 = new System.Windows.Forms.Label();
-            this.txtAmount = new System.Windows.Forms.TextBox();
+            this.txtSection = new System.Windows.Forms.TextBox();
             this.lblSection = new System.Windows.Forms.Label();
-            this.lblDescription = new System.Windows.Forms.TextBox();
+            this.lblPlan = new System.Windows.Forms.TextBox();
             this.txtPlan = new System.Windows.Forms.Label();
             this.lblMonth = new System.Windows.Forms.Label();
-            this.txtAmount2 = new System.Windows.Forms.TextBox();
             this.grpPersonalData.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,12 +49,12 @@
             this.grpPersonalData.Controls.Add(this.bttnMenu);
             this.grpPersonalData.Controls.Add(this.bttnContinue2);
             this.grpPersonalData.Controls.Add(this.lblAmount2);
-            this.grpPersonalData.Controls.Add(this.txtAmount);
+            this.grpPersonalData.Controls.Add(this.txtSection);
             this.grpPersonalData.Controls.Add(this.lblSection);
-            this.grpPersonalData.Controls.Add(this.lblDescription);
+            this.grpPersonalData.Controls.Add(this.lblPlan);
             this.grpPersonalData.Controls.Add(this.txtPlan);
             this.grpPersonalData.Controls.Add(this.lblMonth);
-            this.grpPersonalData.Font = new System.Drawing.Font("Segoe Print", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpPersonalData.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpPersonalData.Location = new System.Drawing.Point(35, 12);
             this.grpPersonalData.Name = "grpPersonalData";
             this.grpPersonalData.Size = new System.Drawing.Size(729, 417);
@@ -62,11 +62,18 @@
             this.grpPersonalData.TabStop = false;
             this.grpPersonalData.Text = "Generar Colegiatura";
             // 
+            // txtAmount2
+            // 
+            this.txtAmount2.Location = new System.Drawing.Point(318, 223);
+            this.txtAmount2.Name = "txtAmount2";
+            this.txtAmount2.Size = new System.Drawing.Size(219, 22);
+            this.txtAmount2.TabIndex = 28;
+            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(318, 67);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(219, 30);
+            this.dateTimePicker1.Size = new System.Drawing.Size(289, 22);
             this.dateTimePicker1.TabIndex = 27;
             // 
             // bttnMenu
@@ -92,39 +99,39 @@
             this.lblAmount2.AutoSize = true;
             this.lblAmount2.Location = new System.Drawing.Point(160, 230);
             this.lblAmount2.Name = "lblAmount2";
-            this.lblAmount2.Size = new System.Drawing.Size(51, 23);
+            this.lblAmount2.Size = new System.Drawing.Size(48, 16);
             this.lblAmount2.TabIndex = 7;
             this.lblAmount2.Text = "Monto";
             // 
-            // txtAmount
+            // txtSection
             // 
-            this.txtAmount.Location = new System.Drawing.Point(318, 168);
-            this.txtAmount.Name = "txtAmount";
-            this.txtAmount.Size = new System.Drawing.Size(219, 30);
-            this.txtAmount.TabIndex = 6;
+            this.txtSection.Location = new System.Drawing.Point(318, 168);
+            this.txtSection.Name = "txtSection";
+            this.txtSection.Size = new System.Drawing.Size(219, 22);
+            this.txtSection.TabIndex = 6;
             // 
             // lblSection
             // 
             this.lblSection.AutoSize = true;
             this.lblSection.Location = new System.Drawing.Point(160, 174);
             this.lblSection.Name = "lblSection";
-            this.lblSection.Size = new System.Drawing.Size(59, 23);
+            this.lblSection.Size = new System.Drawing.Size(55, 16);
             this.lblSection.TabIndex = 5;
             this.lblSection.Text = "Sección";
             // 
-            // lblDescription
+            // lblPlan
             // 
-            this.lblDescription.Location = new System.Drawing.Point(318, 114);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(219, 30);
-            this.lblDescription.TabIndex = 4;
+            this.lblPlan.Location = new System.Drawing.Point(318, 114);
+            this.lblPlan.Name = "lblPlan";
+            this.lblPlan.Size = new System.Drawing.Size(219, 22);
+            this.lblPlan.TabIndex = 4;
             // 
             // txtPlan
             // 
             this.txtPlan.AutoSize = true;
             this.txtPlan.Location = new System.Drawing.Point(166, 121);
             this.txtPlan.Name = "txtPlan";
-            this.txtPlan.Size = new System.Drawing.Size(40, 23);
+            this.txtPlan.Size = new System.Drawing.Size(34, 16);
             this.txtPlan.TabIndex = 3;
             this.txtPlan.Text = "Plan";
             // 
@@ -133,16 +140,9 @@
             this.lblMonth.AutoSize = true;
             this.lblMonth.Location = new System.Drawing.Point(171, 74);
             this.lblMonth.Name = "lblMonth";
-            this.lblMonth.Size = new System.Drawing.Size(35, 23);
+            this.lblMonth.Size = new System.Drawing.Size(32, 16);
             this.lblMonth.TabIndex = 1;
             this.lblMonth.Text = "Mes";
-            // 
-            // txtAmount2
-            // 
-            this.txtAmount2.Location = new System.Drawing.Point(318, 223);
-            this.txtAmount2.Name = "txtAmount2";
-            this.txtAmount2.Size = new System.Drawing.Size(219, 30);
-            this.txtAmount2.TabIndex = 28;
             // 
             // frmColegiatura
             // 
@@ -165,9 +165,9 @@
         private System.Windows.Forms.Button bttnMenu;
         private System.Windows.Forms.Button bttnContinue2;
         private System.Windows.Forms.Label lblAmount2;
-        private System.Windows.Forms.TextBox txtAmount;
+        private System.Windows.Forms.TextBox txtSection;
         private System.Windows.Forms.Label lblSection;
-        private System.Windows.Forms.TextBox lblDescription;
+        private System.Windows.Forms.TextBox lblPlan;
         private System.Windows.Forms.Label txtPlan;
         private System.Windows.Forms.Label lblMonth;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
